@@ -11,7 +11,7 @@ export default function About(){
                 <div>
                     <h2 className="text-center text-emerald-500 
                                    text-5xl font-bold">
-                        Hello, I'm John! 👋🏻
+                        Hello, I'm John! <span className="wave">👋</span>
                     </h2>
                 </div>
                 <p>
