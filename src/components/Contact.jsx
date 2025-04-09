@@ -11,13 +11,13 @@ export default function Contact(){
                     target="_blank"
                     className="text-center hover:underline"
                     href="mailto:Jmhoyt6355@gmail.com">
-                    Send me an email to: Jmhoyt6355@gmail.com
+                    Send me an email to: <br /> Jmhoyt6355@gmail.com
                 </a>
                 <a rel="noreferrer"
                     target="_blank"
                     className="text-center hover:underline"
                     href="https://twitter.com/geeksforgeeks">
-                    Connect with me on LinkedIn!
+                    Connect with me on <br /> LinkedIn!
                     <span className="font-bold">
                        
                     </span>
@@ -27,7 +27,7 @@ export default function Contact(){
                     target="_blank"
                     className="text-center hover:underline"
                     href="https://github.com/JohnMHoyt24">
-                    View my GitHub Profile
+                    View my GitHub <br /> Profile
                 </a>
             </div>
         </section>
