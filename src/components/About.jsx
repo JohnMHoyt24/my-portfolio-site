@@ -3,13 +3,13 @@ export default function About(){
         <section
             id="about"
             className="px-10 w-full flex flex-col lg:flex-row py-20 
-                       align-center bg-emerald-200 max-w-5xl mx-auto">
+                       align-center bg-orange-200 shadow-xl max-w-5xl mx-auto">
             <div className="flex-1">
             </div>
             <div className="flex-1 flex flex-col justify-center
                             items-center gap-5 px-6">
                 <div>
-                    <h2 className="text-center text-emerald-500 
+                    <h2 className="text-center text-indigo-500 
                                    text-5xl font-bold">
                         Hello, I'm John! <span className="wave">👋</span>
                     </h2>

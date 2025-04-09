@@ -5,14 +5,14 @@ export default function Navbar() {
             <div className="container flex flex-col lg:flex-row
                             gap-5 justify-between w-full 
                             items-center max-w-5xl mx-auto">
-                <h3 className="text-3xl text-emerald-500 font-bold">
+                <h3 className="text-3xl text-indigo-500 font-bold">
                     John's World
                 </h3>
                 <ul className="flex gap-3 align-center p-1 flex-wrap">
                     <li>
                         <a className="text-sm sm:text-base px-2 lg:px-5 
                                       py-2 transition rounded hover:text-white 
-                                      hover:bg-emerald-600"
+                                      hover:bg-indigo-600"
                            href="#about">
                         About
                         </a>
@@ -20,7 +20,7 @@ export default function Navbar() {
                     <li>
                         <a className="text-sm sm:text-base px-2 lg:px-5 py-2 
                                       transition rounded hover:text-white 
-                                      hover:bg-emerald-600"
+                                      hover:bg-indigo-600"
                             href="#skills">
                             Skills
                         </a>
@@ -28,7 +28,7 @@ export default function Navbar() {
                     <li>
                         <a className="text-sm sm:text-base px-2 lg:px-5 py-2 
                                       transition rounded hover:text-white 
-                                      hover:bg-emerald-600"
+                                      hover:bg-indigo-600"
                             href="#projects">
                             Projects
                         </a>
@@ -36,7 +36,7 @@ export default function Navbar() {
                     <li>
                         <a className="text-sm sm:text-base px-2 lg:px-5 py-2 
                                       transition rounded hover:text-white 
-                                      hover:bg-emerald-600"
+                                      hover:bg-indigo-600"
                             href="#contact">
                             Contact
                         </a>

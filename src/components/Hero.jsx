@@ -10,7 +10,7 @@ export default function Hero() {
             <h4 className="text-center text-xl font-bold">
                 Hi and welcome to
             </h4>
-            <h2 className="text-center text-emerald-500 text-5xl font-bold">
+            <h2 className="text-center text-indigo-500 text-5xl font-bold">
               My Portfolio Website
             </h2>
           </div>
@@ -18,11 +18,11 @@ export default function Hero() {
             Let me make your dream website come to life!
           </p>
         </div>
-        <div className="flex-1">
+{    /*    <div className="flex-1">
           <img src="https://www.svgrepo.com/show/331488/typing-on-laptop.svg"
                alt="Hello.svg"
                className="w-full h-full bg-cover"/>
-        </div>
+    </div>*/}
       </section>
     );
   }
