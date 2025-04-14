@@ -1,3 +1,5 @@
+import Card from "./Card";
+
 export default function Contact(){
     return(
         <section id="contact"
@@ -7,28 +9,20 @@ export default function Contact(){
             </h2>
             <div className="flex gap-5 justify-center 
                         my-10">
-                <a rel="noreferrer"
-                    target="_blank"
-                    className="text-center hover:underline"
-                    href="mailto:Jmhoyt6355@gmail.com">
-                    Send me an email to: <br /> Jmhoyt6355@gmail.com
-                </a>
-                <a rel="noreferrer"
-                    target="_blank"
-                    className="text-center hover:underline"
-                    href="https://twitter.com/geeksforgeeks">
-                    Connect with me on <br /> LinkedIn!
-                    <span className="font-bold">
-                       
-                    </span>
-                </a>
 
-                <a rel="noreferrer"
-                    target="_blank"
-                    className="text-center hover:underline"
-                    href="https://github.com/JohnMHoyt24">
-                    View my GitHub <br /> Profile
-                </a>
+                <Card title="LinkedIn" 
+                    description="View my education and experience."
+                    action="Let's Connect" />
+                
+                <Card title="GitHub" 
+                    description="See what I'm currently working on."
+                    action="View Profile" />
+
+                <Card title="Email" 
+                    description="Feel free to send me an email for new, exciting,
+                    learning opportunities"
+                    action="View Profile" />
+                
             </div>
         </section>
     );
