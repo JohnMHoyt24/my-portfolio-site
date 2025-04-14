@@ -1,4 +1,13 @@
+import { useState } from "react";
+
 export default function Navbar() {
+
+    const [active, setActive] = useState("");
+
+    const handleToggle = () => {
+        setActive(!active);
+    }
+
     return (
         <nav className="w-full px-5 sm:px-10 py-5 shadow-xl 
                         backdrop-blur-lg fixed top-0 z-10">
@@ -42,6 +51,7 @@ export default function Navbar() {
                         </a>
                     </li>
                 </ul>
+                <button type="button" className="btn btn-light" onClick={handleToggle}>Open/Close</button>
             </div>
         </nav>
     );

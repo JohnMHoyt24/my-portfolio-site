@@ -12,16 +12,22 @@ export default function Contact(){
 
                 <Card title="LinkedIn" 
                     description="View my education and experience."
-                    action="Let's Connect" />
+                    action="Let's Connect"
+                    url="https://www.linkedin.com/in/john-m-hoyt"
+                    />
                 
                 <Card title="GitHub" 
                     description="See what I'm currently working on."
-                    action="View Profile" />
+                    action="View Profile"
+                    url="https://github.com/JohnMHoyt24"
+                    />
 
                 <Card title="Email" 
                     description="Feel free to send me an email for new, exciting,
                     learning opportunities"
-                    action="View Profile" />
+                    action="View Profile"
+                    url="mailto:Jmhoyt6355@gmail.com"
+                    />
                 
             </div>
         </section>
