@@ -1,7 +1,7 @@
 export default function About(){
     return (
         <section
-            id="about"
+            id="#about"
             className="px-10 w-full flex flex-col lg:flex-row py-20 
                        align-center bg-orange-200 shadow-xl max-w-5xl mx-auto">
             <div className="flex-1">
@@ -9,9 +9,10 @@ export default function About(){
             <div className="flex-1 flex flex-col justify-center
                             items-center gap-5 px-6">
                 <div>
-                    <h2 className="text-center text-indigo-500 
-                                   text-5xl font-bold">
-                        Hello, I'm John! <span className="wave">👋</span>
+                    <h2 className="animate-typing overflow-hidden whitespace-nowrap border-r-4 
+                                    border-r-white pr-5 text-5xl text-indigo-500 font-bold text-center 
+                                    text-5xl font-bold">
+                        Hello, I'm John! {/*<span className="wave">👋</span>*/}
                     </h2>
                 </div>
                 <p>

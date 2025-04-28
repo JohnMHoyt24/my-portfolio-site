@@ -1,12 +1,7 @@
-import { useState } from "react";
+//import { useState } from "react";
+import { HashLink } from "react-router-hash-link";
 
 export default function Navbar() {
-
-    const [active, setActive] = useState("");
-
-    const handleToggle = () => {
-        setActive(!active);
-    }
 
     return (
         <nav className="w-full px-5 sm:px-10 py-5 shadow-xl 
@@ -19,10 +14,10 @@ export default function Navbar() {
                 </h3>
                 <ul className="flex gap-3 align-center p-1 flex-wrap">
                     <li>
-                        <a className="text-sm sm:text-base px-2 lg:px-5 
+                        <a smooth to="/#about"
+                            className="text-sm sm:text-base px-2 lg:px-5 
                                       py-2 transition rounded hover:text-white 
-                                      hover:bg-indigo-600"
-                           href="#about">
+                                      hover:bg-indigo-600">
                         About
                         </a>
                     </li>
@@ -51,7 +46,7 @@ export default function Navbar() {
                         </a>
                     </li>
                 </ul>
-                <button type="button" className="btn btn-light" onClick={handleToggle}>Open/Close</button>
+                <button type="button" className="btn btn-light">Open/Close</button>
             </div>
         </nav>
     );
